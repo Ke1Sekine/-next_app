@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: blue;
   text-decoration: none;
 }
 
@@ -22,4 +22,8 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+#__next-prerender-indicator {
+  display: none;
 }
