@@ -25,11 +25,11 @@ export default function Fist() {
                 <ul className={utilStyles.list}>
                     <li className={utilStyles.listItem}>
                         <h3>第1部: 基本文法</h3>
-                        <dt>
+                        <dl>
                             <dd>Arrow Function</dd>
                             <dd>同期処理（sync）と非同期処理（async）（Promise）</dd>
                             <dd>ECMAScriptの基礎</dd>
-                        </dt>
+                        </dl>
                     </li>
                 </ul>
                 <p>同じWebサイトにあるユースケース（応用編）を実施しました。</p>
@@ -39,10 +39,10 @@ export default function Fist() {
                 <ul className={utilStyles.list}>
                     <li className={utilStyles.listItem}>
                         <h3>第2部: ユースケース</h3>
-                        <dt>
+                        <dl>
                             <dd>Ajax（非同期：Promise　通信：Http）</dd>
                             <dd><a href="https://ke1sekine.github.io/todo/" target="_blank" rel="noopener" rel="noreferrer">Todoアプリ</a>(イベントクラスとモデルクラス)</dd>
-                        </dt>
+                        </dl>
                     </li>
                 </ul>
             </React.Fragment>
