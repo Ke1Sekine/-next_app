@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Layout.module.css'
 import utilStyles from '../styles/Utils.module.scss'
 import Link from 'next/link'
-import basePath from '../lib/basepath'
+import basePath from '../lib/basepath.ts'
 
 const name = 'Kei Sekine'
 export const siteTitle = 'Next.js Sample Website'
