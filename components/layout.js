@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Layout.module.css'
 import utilStyles from '../styles/Utils.module.scss'
 import Link from 'next/link'
+import basePath from '../lib/basepath'
 
 const name = 'Kei Sekine'
 export const siteTitle = 'Next.js Sample Website'
@@ -28,7 +29,7 @@ export default function Layout({ children, home }) {
                 {home ? (
                     <React.Fragment>
                         <img
-                            src="/images/profile.png"
+                            src={basePath("/images/profile.png")}
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
                         />
@@ -39,7 +40,7 @@ export default function Layout({ children, home }) {
                             <Link href="/">
                                 <a>
                                     <img
-                                        src="/images/profile.png"
+                                        src={basePath("/images/profile.png")}
                                         className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                                         alt={name}
                                     />

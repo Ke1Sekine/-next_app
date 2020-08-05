@@ -9,16 +9,7 @@ module.exports = {
     exportPathMap: async function() {
         const paths = {
             '/': { page: '/' },
-            // '/chapter': { page: '/chapter' },
         };
-        // const paths = {};
-        // paths[`/`] = { page: '/'};
-        // paths[`/chapter`] = { page: '/chapter'};
-        // const chapters = ["first", "second", "third"];
-        // chapters.forEach(item => {
-        //     paths[`/chapter/${item}`] = { page: '/chapter'};
-        // });
-
         return paths;
     },
     publicRuntimeConfig: {
